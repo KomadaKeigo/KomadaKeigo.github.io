@@ -3,7 +3,7 @@
 
 cd "$(dirname "$0")"
 
-echo "Enter Git Commit Comment!"
+echo "↓↓↓Enter Git Commit Comment!↓↓↓"
 read COMMENT_RAW
 #echo "Raw Comment = $COMMENT_RAW"
 
@@ -18,16 +18,22 @@ if [ -z "$COMMENT_SPACES_TRIMMED" ]; then
 else
     COMMENT=$COMMENT_RAW
 fi
+echo "\n"
 echo "COMMENT = $COMMENT"
 
+
 #build page
+echo "\n"
 hugo
+
 #Show Address
-echo "↓Your Page's URL"
+echo "\n"
+echo "↓↓↓Your Page's URL"
 grep "baseURL = \"*\"" config.toml | grep -o "https://.*\.github\.io/"
 
 
 #do git push
+echo "\n"
 git add .
 git commit -m "$COMMENT"
 git push
