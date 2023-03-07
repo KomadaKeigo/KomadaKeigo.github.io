@@ -34,8 +34,8 @@ theme = "aafu"
     # Profile section
     [params.profile]
         name = "Keigo Komada"
-        tagline = "Title"
-        location = "City Name, ST"
+        tagline = "駒田 啓伍"
+        location = "Tohoku NLP Group"
         photo = "profile.jpg"
 
     # Section for links to social websites
