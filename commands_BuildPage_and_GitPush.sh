@@ -22,6 +22,7 @@ function ask_yes_no {
 }
 
 #Wait Input and Ask y/n
+#全角で入力した後に削除すると表示がおかしくなるので確認機能を追加
 while :
 do
     echo "↓↓↓Enter Git Commit Comment!↓↓↓"
@@ -46,12 +47,12 @@ COMMENT_SPACES_TRIMMED=`echo $COMMENT_RAW | tr -d ' 　'`
 if [ -z "$COMMENT_SPACES_TRIMMED" ]; then
     echo "It's Empty Comment"
     TIME_STAMP=`date "+%Y/%m/%d %H:%M:%S"`
-    COMMENT=`echo "commit at $TIME_STAMP"`
+    COMMENT_FINAL=`echo "commit at $TIME_STAMP"`
 else
-    COMMENT=$COMMENT_RAW
+    COMMENT_FINAL=$COMMENT_RAW
 fi
 echo "\n"
-echo "COMMENT = \"$COMMENT\""
+echo "COMMENT = \"$COMMENT_FINAL\""
 
 
 
@@ -62,7 +63,7 @@ hugo
 #do git push
 echo "\n"
 git add .
-git commit -m "$COMMENT"
+git commit -m "$COMMENT_FINAL"
 git push
 
 #Show Address
