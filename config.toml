@@ -8,10 +8,10 @@ theme = "aafu"
   writeStats = true
 
 [params]
-    title = "Aafu theme"
-    author = "Darshan Baral"
+    title = "MainPage"
+    author = "Keigo Komada"
     description = "Website title"
-    copyright = "short copyright message"
+    copyright = "© 2023 Keigo Komada"
 
     [params.theme]
         # Available themes are 'light', 'dark', 'ocean', and 'pinkish'
