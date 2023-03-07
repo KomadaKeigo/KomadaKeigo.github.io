@@ -107,7 +107,7 @@ theme = "aafu"
     
     [params.contact_details]
         title = "Contact Details"
-        icon = "fa-solid fa-phone"
+        icon = "fa fa-phone"#"fa-solid fa-phone"
         [[params.contact_details.list]]
         address_name = "Mail"
         address_content = "keigo.komada.r6@gmail.com"
