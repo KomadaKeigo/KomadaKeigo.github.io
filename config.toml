@@ -8,7 +8,7 @@ theme = "aafu"
   writeStats = true
 
 [params]
-    title = "MainPage"
+    title = "MainPage:Keigo Komada(Tohoku Univ.)/駒田啓伍(東北大学)"
     author = "Keigo Komada"
     description = "Website title"
     copyright = "© 2023 Keigo Komada"
@@ -91,7 +91,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "This is a demo of the `aafu` theme. It has `light`, `dark`, `ocean`, and `pinkish` themes."
+        description = "4th year student of Tohoku University Department of Electrical Information and Physics Engineering, Tohoku NLP Group"
 
     # Experience section
     [params.experience]

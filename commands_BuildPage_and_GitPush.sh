@@ -68,5 +68,5 @@ git push
 
 #Show Address
 echo "\n"
-echo "↓↓↓Your Page's URL"
+echo "↓↓↓Your Page URL"
 grep "baseURL = \"*\"" config.toml | grep -o "https://.*\.github\.io/"
