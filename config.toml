@@ -24,12 +24,12 @@ theme = "aafu"
         use = true
         #images/icons/default/"
         metas = '''
-        <link rel="apple-touch-icon" sizes="180x180" href="images/icons/default/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/icons/default/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/icons/default/favicon-16x16.png">
-        <link rel="manifest" href="images/icons/default/site.webmanifest">
-        <link rel="mask-icon" href="images/icons/default/safari-pinned-tab.svg" color="#252627">
-        <link rel="shortcut icon" href="images/icons/default/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/icons/slime/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/icons/slime/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/icons/slime/favicon-16x16.png">
+        <link rel="manifest" href="images/icons/slime/site.webmanifest">
+        <link rel="mask-icon" href="images/icons/slime/safari-pinned-tab.svg" color="#252627">
+        <link rel="shortcut icon" href="images/icons/slime/favicon.ico">
         '''
         
         # metas = '''
