@@ -86,6 +86,8 @@ theme = "aafu"
         item = "aboutme"
         expand = true   # true for the section that is initially expanded
     [[params.showInAccordion]]
+        item = "contact_details"
+    [[params.showInAccordion]]
         item = "experience"
     [[params.showInAccordion]]
         item = "education"
@@ -102,6 +104,14 @@ theme = "aafu"
         title = "About Me"
         icon = "fas fa-user"
         description = "4th year student of Tohoku University Department of Electrical Information and Physics Engineering, Tohoku NLP Group"
+    
+    [params.contact_details]
+        title = "Contact Details"
+        icon = "fa-solid fa-phone"
+        [[params.contact_details.list]]
+        address_name = "Mail"
+        address_content = "keigo.komada.r6@gmail.com"
+        
 
     # Experience section
     [params.experience]
@@ -186,19 +196,19 @@ theme = "aafu"
         [[params.project.list]]
             title = "NLP 100 Knock"
             url = "https://nlp100.github.io/ja/"
-            description = "Learning skills for programming, data analysis, and research activities"
+            description = "Learning programming skills for research activities"
         [[params.project.list]]
             title = "Learning Fundamentals of NLP"
             url = "https://www.nlp.ecei.tohoku.ac.jp/study-groups/learning-fundamentals-of-nlp/"
             description = "Learning fundamental NLP methods"
-        [[params.project.list]]
-            title = "Project 3"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 4"
-            url = "#"
-            description = "Description of the project"
+        # [[params.project.list]]
+        #     title = "Project 3"
+        #     url = "#"
+        #     description = "Description of the project"
+        # [[params.project.list]]
+        #     title = "Project 4"
+        #     url = "#"
+        #     description = "Description of the project"
 
     # Skill section
     [params.skill]
