@@ -59,16 +59,13 @@ echo "COMMENT = \"$COMMENT\""
 echo "\n"
 hugo
 
-#Show Address
-echo "\n"
-echo "↓↓↓Your Page's URL"
-grep "baseURL = \"*\"" config.toml | grep -o "https://.*\.github\.io/"
-
-
 #do git push
 echo "\n"
 git add .
 git commit -m "$COMMENT"
 git push
 
-
+#Show Address
+echo "\n"
+echo "↓↓↓Your Page's URL"
+grep "baseURL = \"*\"" config.toml | grep -o "https://.*\.github\.io/"
