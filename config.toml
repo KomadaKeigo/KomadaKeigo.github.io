@@ -10,7 +10,7 @@ theme = "aafu"
 [params]
     title = "MainPage:Keigo Komada(Tohoku Univ.)/駒田啓伍(東北大学)"
     author = "Keigo Komada"
-    description = "Website title"
+    description = "Keigo Komada's HomePage/駒田啓伍のホームページ"
     copyright = "© 2023 Keigo Komada"
 
     [params.theme]
